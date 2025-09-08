@@ -1,2 +1,2 @@
-# sms-spam-classifier
+# spam-message-classifier
 ML classification project
