@@ -7,6 +7,9 @@ from nltk.stem.porter import PorterStemmer
 
 ps = PorterStemmer()
 
+nltk.download('punkt', quiet=True)
+nltk.download('stopwords', quiet=True)
+
 def transform_text(text):
     text = text.lower()
     text = nltk.word_tokenize(text)
@@ -54,4 +57,5 @@ if st.button('Predict'):
         st.markdown(
             "<div style='background-color:#ccffcc; padding:8px; border-radius:8px; text-align:center; font-size:30px; font-weight:bold; color:#006600;'>Not Spam</div>",
             unsafe_allow_html=True
+
         )
