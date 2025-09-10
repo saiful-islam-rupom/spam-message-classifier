@@ -5,6 +5,9 @@ import nltk
 from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
 
+nltk.download('punkt')
+nltk.download('stopwords')
+
 ps = PorterStemmer()
 
 def transform_text(text):
@@ -55,3 +58,4 @@ if st.button('Predict'):
             "<div style='background-color:#ccffcc; padding:8px; border-radius:8px; text-align:center; font-size:30px; font-weight:bold; color:#006600;'>Not Spam</div>",
             unsafe_allow_html=True
         )
+
