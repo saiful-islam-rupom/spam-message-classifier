@@ -1,4 +1,4 @@
-![Poster](images/banner.jpg)
+![Poster](images/poster.png)
 # Spam Message Classifier
 **Live App**: [Click to Try the App](https://saiful-islam-rupom-spam-message-classifier.streamlit.app/)
 
@@ -55,7 +55,7 @@ This project follows a structured workflow combining data cleaning, EDA, data pr
 - Results are displayed in a color-coded message box for clarity.
 
 ## App Snapshot
-![Snapshot](images/snapshot.jpg)
+![Snapshot](images/snapshot.png)
 
 ## Future Enhancements
 - Add support for multilingual spam detection
